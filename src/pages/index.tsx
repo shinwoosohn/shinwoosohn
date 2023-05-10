@@ -3,6 +3,7 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 import { AiFillLinkedin, AiFillGithub, AiFillGitlab } from "react-icons/ai";
 import Image from "next/image";
 import { useState } from "react";
+import Link from "next/link";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -24,9 +25,9 @@ export default function Home() {
       <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between">
-            <a href="/">
+            <Link href="/">
               <Image width={32} height={32} src="/favicon.png" alt="logo" />
-            </a>
+            </Link>
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill
@@ -35,12 +36,12 @@ export default function Home() {
                 />
               </li>
               <li>
-                <a
+                <Link
                   className="bg-gradient-to-r from-[#03C1FF] to-[#5011FF] text-white px-4 py-2 rounded-md ml-8"
                   href="#"
                 >
                   Resume
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>
@@ -123,42 +124,38 @@ export default function Home() {
         <section>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1">
-              <img
+              <Image
                 src="/web1.png"
                 className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
+                width={1920}
+                height={1080}
                 alt="first portfolio piece"
               />
             </div>
             <div className="basis-1/3 flex-1">
-              <img
+              <Image
                 src="/placeholder-image.png"
                 className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
+                width={1920}
+                height={1080}
                 alt="first portfolio piece"
               />
             </div>
             <div className="basis-1/3 flex-1">
-              <img
+              <Image
                 src="/placeholder-image.png"
                 className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
+                width={1920}
+                height={1080}
                 alt="first portfolio piece"
               />
             </div>
             <div className="basis-1/3 flex-1">
-              <img
+              <Image
                 src="/placeholder-image.png"
                 className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
+                width={1920}
+                height={1080}
                 alt="first portfolio piece"
               />
             </div>
