@@ -50,10 +50,11 @@ export default function Home() {
               Edward Shinwoo Sohn
             </h2>
             <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-100">
-              I'm a developer and designer with a huge passion for creating
-              amazing products. Combining my skills in both areas, I'm thrilled
-              to craft innovative solutions that go above and beyond what's
-              expected. Let's work together to build something truly special!
+              I{"'"}m a developer and designer with a huge passion for creating
+              amazing products. Combining my skills in both areas, I{"'"}m
+              thrilled to craft innovative solutions that go above and beyond
+              what{"'"}s expected. Let{"'"}s work together to build something
+              truly special!
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-100">
