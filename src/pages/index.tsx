@@ -38,7 +38,8 @@ export default function Home() {
               <li>
                 <Link
                   className="bg-gradient-to-r from-[#03C1FF] to-[#5011FF] text-white px-4 py-2 rounded-md ml-8"
-                  href="#"
+                  href="/resume.pdf"
+                  target="_blank"
                 >
                   Resume
                 </Link>
@@ -58,9 +59,15 @@ export default function Home() {
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-100">
-            <AiFillLinkedin />
-            <AiFillGithub />
-            <AiFillGitlab />
+            <a href="https://www.linkedin.com/in/shinwoosohn/" target="_blank">
+              <AiFillLinkedin />
+            </a>
+            <a href="https://github.com/shinwoosohn" target="_blank">
+              <AiFillGithub />
+            </a>
+            <a href="https://gitlab.com/esohn96" target="_blank">
+              <AiFillGitlab />
+            </a>
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-[#11A1FF] w-80 h-80 rounded-full mt-20 overflow-hidden md:h-96 md:w-96">
             <Image
