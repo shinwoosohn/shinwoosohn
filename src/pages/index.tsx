@@ -129,11 +129,11 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section>
+        <section className="flex justify-center items-center">
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1">
               <Image
-                src="/web1.png"
+                src="/byob.png"
                 className="rounded-lg object-cover"
                 width={1920}
                 height={1080}
@@ -142,30 +142,32 @@ export default function Home() {
             </div>
             <div className="basis-1/3 flex-1">
               <Image
-                src="/placeholder-image.png"
+                src="/placeholder.jpg"
                 className="rounded-lg object-cover"
                 width={1920}
                 height={1080}
-                alt="first portfolio piece"
+                alt="second portfolio piece"
               />
             </div>
             <div className="basis-1/3 flex-1">
               <Image
-                src="/placeholder-image.png"
+                src="/placeholder.jpg"
                 className="rounded-lg object-cover"
                 width={1920}
                 height={1080}
-                alt="first portfolio piece"
+                alt="third portfolio piece"
               />
             </div>
             <div className="basis-1/3 flex-1">
-              <Image
-                src="/placeholder-image.png"
-                className="rounded-lg object-cover"
-                width={1920}
-                height={1080}
-                alt="first portfolio piece"
-              />
+              <a href="https://dribbble.com/esohn96" target="_blank">
+                <Image
+                  src="/casa.png"
+                  className="rounded-lg object-cover"
+                  width={1920}
+                  height={1080}
+                  alt="dribbble link"
+                />
+              </a>
             </div>
           </div>
         </section>
