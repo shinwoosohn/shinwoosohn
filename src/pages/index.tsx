@@ -92,9 +92,14 @@ export default function Home() {
                 Front-end Development
               </h3>
               <p className="text-gray-800 py-1 dark:text-gray-100">
-                {["React.js", "Javascript ES6+", "HTML", "CSS", "Redux"].join(
-                  " | "
-                )}
+                {[
+                  "React.js",
+                  "Javascript ES6+",
+                  "HTML",
+                  "CSS",
+                  "Bootstrap",
+                  "Redux",
+                ].join(" | ")}
               </p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 flex-1 dark:bg-[#273759]">
@@ -132,42 +137,54 @@ export default function Home() {
         <section className="flex justify-center items-center">
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1">
-              <Image
-                src="/byob.png"
-                className="rounded-lg object-cover"
-                width={1920}
-                height={1080}
-                alt="first portfolio piece"
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                src="/placeholder.jpg"
-                className="rounded-lg object-cover"
-                width={1920}
-                height={1080}
-                alt="second portfolio piece"
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                src="/placeholder.jpg"
-                className="rounded-lg object-cover"
-                width={1920}
-                height={1080}
-                alt="third portfolio piece"
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <a href="https://dribbble.com/esohn96" target="_blank">
+              <Link href="https://github.com/shinwoosohn/byob" target="_blank">
                 <Image
-                  src="/casa.png"
-                  className="rounded-lg object-cover"
+                  src="/byob.png"
+                  className="rounded-lg object-cover shadow-lg"
+                  width={1920}
+                  height={1080}
+                  alt="first portfolio piece"
+                />
+              </Link>
+            </div>
+            <div className="basis-1/3 flex-1">
+              <Link
+                href="https://github.com/shinwoosohn/carcar"
+                target="_blank"
+              >
+                <Image
+                  src="/carcar.png"
+                  className="rounded-lg object-cover shadow-lg"
+                  width={1920}
+                  height={1080}
+                  alt="second portfolio piece"
+                />
+              </Link>
+            </div>
+            <div className="basis-1/3 flex-1">
+              <Link
+                href="https://github.com/shinwoosohn/conference-go"
+                target="_blank"
+              >
+                <Image
+                  src="/confgo.png"
+                  className="rounded-lg object-cover shadow-lg"
+                  width={1920}
+                  height={1080}
+                  alt="third portfolio piece"
+                />
+              </Link>
+            </div>
+            <div className="basis-1/3 flex-1">
+              <Link href="https://dribbble.com/esohn96" target="_blank">
+                <Image
+                  src="/casa0101.png"
+                  className="rounded-lg object-cover shadow-lg"
                   width={1920}
                   height={1080}
                   alt="dribbble link"
                 />
-              </a>
+              </Link>
             </div>
           </div>
         </section>
