@@ -38,7 +38,7 @@ export default function Home() {
               <li>
                 <Link
                   className="bg-gradient-to-r from-[#03C1FF] to-[#5011FF] text-white px-4 py-2 rounded-md ml-8"
-                  href="/shinwoo_sohn_resume.pdf"
+                  href="/resume.pdf"
                   target="_blank"
                 >
                   Resume
