@@ -137,13 +137,27 @@ export default function Home() {
         <section className="flex justify-center items-center">
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1">
+              <Link
+                href="https://30f43beb.gym-typescript-9f3.pages.dev/"
+                target="_blank"
+              >
+                <Image
+                  src="/gym.png"
+                  className="rounded-lg object-cover shadow-lg"
+                  width={1920}
+                  height={1080}
+                  alt="first portfolio piece"
+                />
+              </Link>
+            </div>
+            <div className="basis-1/3 flex-1">
               <Link href="https://github.com/shinwoosohn/byob" target="_blank">
                 <Image
                   src="/byob.png"
                   className="rounded-lg object-cover shadow-lg"
                   width={1920}
                   height={1080}
-                  alt="first portfolio piece"
+                  alt="second portfolio piece"
                 />
               </Link>
             </div>
@@ -154,20 +168,6 @@ export default function Home() {
               >
                 <Image
                   src="/carcar.png"
-                  className="rounded-lg object-cover shadow-lg"
-                  width={1920}
-                  height={1080}
-                  alt="second portfolio piece"
-                />
-              </Link>
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Link
-                href="https://github.com/shinwoosohn/conference-go"
-                target="_blank"
-              >
-                <Image
-                  src="/confgo.png"
                   className="rounded-lg object-cover shadow-lg"
                   width={1920}
                   height={1080}
