@@ -151,9 +151,9 @@ export default function Home() {
               </Link>
             </div>
             <div className="basis-1/3 flex-1">
-              <Link href="https://github.com/shinwoosohn/byob" target="_blank">
+              <Link href="https://www.sharpperformance.tech/" target="_blank">
                 <Image
-                  src="/byob.png"
+                  src="/portfolio_sharp.png"
                   className="rounded-lg object-cover shadow-lg"
                   width={1920}
                   height={1080}
@@ -162,12 +162,9 @@ export default function Home() {
               </Link>
             </div>
             <div className="basis-1/3 flex-1">
-              <Link
-                href="https://github.com/shinwoosohn/carcar"
-                target="_blank"
-              >
+              <Link href="https://github.com/shinwoosohn/byob" target="_blank">
                 <Image
-                  src="/carcar.png"
+                  src="/byob.png"
                   className="rounded-lg object-cover shadow-lg"
                   width={1920}
                   height={1080}
