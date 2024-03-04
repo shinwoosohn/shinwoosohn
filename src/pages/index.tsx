@@ -92,14 +92,7 @@ export default function Home() {
                 Front-end Development
               </h3>
               <p className="text-gray-800 py-1 dark:text-gray-100">
-                {[
-                  "React.js",
-                  "Javascript ES6+",
-                  "HTML",
-                  "CSS",
-                  "Bootstrap",
-                  "Redux",
-                ].join(" | ")}
+                {["React.js", "Javascript ES6+", "HTML/CSS"].join(" | ")}
               </p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 flex-1 dark:bg-[#273759]">
@@ -111,10 +104,10 @@ export default function Home() {
                 alt="Code Render"
               />
               <h3 className="text-lg text-[#11A1FF] font-medium pt-8 pb-2">
-                Back-end Development
+                UX/UI Design
               </h3>
               <p className="text-gray-800 py-1 dark:text-gray-100">
-                {["Python 3", "PostgreSQL", "Django", "FastAPI"].join(" | ")}
+                {["Figma", "Sketch"].join(" | ")}
               </p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 flex-1 dark:bg-[#273759]">
@@ -126,10 +119,10 @@ export default function Home() {
                 alt="Thumb Render"
               />
               <h3 className="text-lg text-[#11A1FF] font-medium pt-8 pb-2">
-                UX/UI Design
+                Graphic Design
               </h3>
               <p className="text-gray-800 py-1 dark:text-gray-100">
-                {["Photoshop", "Illustrator", "Figma"].join(" | ")}
+                {["Photoshop", "Illustrator", "InDesign"].join(" | ")}
               </p>
             </div>
           </div>
